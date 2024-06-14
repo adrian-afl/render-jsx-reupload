@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "noEmit": false,
+    "paths": {
+      "@app/*": ["./src/*"]
+    }
+  },
+  "include": ["./src/**/*"]
+}
